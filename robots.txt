@@ -1,0 +1,14 @@
+# robots.txt — digitalkumul.com
+# Full Stack Developer Portfolio — Papua New Guinea
+
+User-agent: *
+Allow: /
+
+# Block access to any server-side config or hidden files
+Disallow: /.env
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /vendor/
+
+# Point crawlers to the sitemap
+Sitemap: https://digitalkumul.com/sitemap.xml
